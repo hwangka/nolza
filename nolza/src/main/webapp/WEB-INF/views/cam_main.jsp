@@ -1,0 +1,207 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%-- <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%> --%>
+
+<!--
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+<html>
+	<head>
+		<title>고 캠핑</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]
+		[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]
+	</head>
+	<body class="homepage">
+
+	Header
+		<div id="header">
+			<div class="container">
+					
+				Logo
+					<div id="logo">
+						<h1><a href="#">Go Camping</a></h1>
+						
+					</div>
+				
+				Nav
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="main.cam_main">Home</a></li>
+							<li><a href="/nolza/cam_main.do">홈</a></li>
+							<li><a href="/nolza/camja_list.do">커뮤니티</a></li>
+							<li><a href="/nolza/login.do">로그인</a></li>
+							<li><a href="/nolza/insertForm.do">회원가입</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	Header
+			
+	Main
+		<div id="main">
+			<div class="container">
+				<header>
+					<h2>Gravida nibh quis urna</h2>
+				</header>
+				<div class="row">
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="/images/pics01.jpg" alt="" /></a>
+							<p>Quisque dictum. Pellentesque viverra  enim. Integer nisl risus, sagittis convallis, rutrum id, elementum.</p>
+							<a href="#" class="button">Read More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/pics11.jpg" alt="" /></a>
+							<p>Pellentesque viverra  enim. Tristique ante ut risus. Quisque dictum. Integer sagittis convallis elementum.</p>
+							<a href="#" class="button">Read More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/pics12.jpg" alt="" /></a>
+							<p>Pellentesque viverra  enim. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum.</p>
+							<a href="#" class="button">Read More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/pics13.jpg" alt="" /></a>
+							<p>Tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis elementum.</p>
+							<a href="#" class="button">Read More</a>
+						</section>
+					</div>
+				</div>
+				<div class="divider">&nbsp;</div>
+				<div class="row">
+				
+					Content
+						<div class="8u skel-cell-important">
+							<section id="content">
+								<header>
+									<h2>Integer gravida nibh quis urna</h2>
+									<span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum</span>
+								</header>
+								<p><a href="#" class="image full"><img src="images/pics02.jpg" alt=""></a></p>
+								<p>This is <strong>Monochromed</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
+								<a href="#" class="button">Read More</a>
+							</section>
+						</div>
+					/Content
+						
+					Sidebar
+						<div id="sidebar" class="4u">
+							<section>
+								<header>
+									<h2>Gravida praesent</h2>
+									<span class="byline">Praesent lacus congue rutrum</span>
+								</header>
+								<p>Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Maecenas luctus lectus at sapien. Consectetuer adipiscing elit.</p>
+								<ul class="default">
+									<li><a href="#">Pellentesque quis lectus gravida blandit.</a></li>
+									<li><a href="#">Lorem ipsum consectetuer adipiscing elit.</a></li>
+									<li><a href="#">Phasellus nec nibh pellentesque congue.</a></li>
+									<li><a href="#">Cras aliquam risus pellentesque pharetra.</a></li>
+									<li><a href="#">Duis non metus commodo euismod lobortis.</a></li>
+									<li><a href="#">Lorem ipsum dolor adipiscing elit.</a></li>
+								</ul>
+							</section>
+						</div>
+					Sidebar
+						
+				</div>
+			
+			</div>
+		</div>
+	Main
+
+	Footer
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<ul class="style1">
+								<li><img src="images/pics05.jpg" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="images/pics06.jpg" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="images/pics07.jpg" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<ul class="style1">
+								<li class="first"><img src="images/pics08.jpg" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="images/pics09.jpg" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="images/pics10.jpg" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+							</ul>
+						</section>				
+					</div>
+					<div class="6u">
+						<section>
+							<header>
+								<h2>Aenean elementum</h2>
+							</header>
+							<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus.</p>
+							<ul class="default">
+								<li><a href="#">Pellentesque quis lectus gravida blandit.</a></li>
+								<li><a href="#">Lorem ipsum consectetuer adipiscing elit.</a></li>
+								<li><a href="#">Phasellus nec nibh pellentesque congue.</a></li>
+								<li><a href="#">Cras aliquam risus pellentesque pharetra.</a></li>
+								<li><a href="#">Duis non metus commodo euismod lobortis.</a></li>
+								<li><a href="#">Lorem ipsum dolor adipiscing elit.</a></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	Footer
+
+	Copyright
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+	</body>
+</html>		 -->
