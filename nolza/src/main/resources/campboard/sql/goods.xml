@@ -24,7 +24,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <!--  글 갯수 -->
 <select id="selectCount" resultType="int">
-	select count(*) from goods
+	select count(*) from goods 
 </select>
 
 <!--  리스트 -->
